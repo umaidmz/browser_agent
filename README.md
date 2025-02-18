@@ -1,7 +1,7 @@
 # Browser Agent
 
 ## Description
-Browser Agent is a project designed to monitor and interact with web browsers programmatically. It provides tools to automate browser tasks, collect data, and perform various web interactions.
+Browser Agent is a project designed to monitor and interact with web browsers programmatically. It provides tools to automate browser tasks, collect data, and perform various web interactions. It only provides basic functionality to enable developers with a startinmg inspiration for browser agent.
 
 ## Installation
 To install the Browser Agent, clone the repository and install the dependencies:
