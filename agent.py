@@ -98,7 +98,7 @@ if __name__ == "__main__":
         
         message = HumanMessage(
             content=[
-                {"type": "text", "text": f"{input_str}"},
+                {"type": "text", "text": f"{input_str} \n {bbox_descriptions}"},
                 {
                 "type": "image_url",
                 "image_url": {"url": f"data:image/png;base64,{img}"},
@@ -110,6 +110,9 @@ if __name__ == "__main__":
         
         print_stream(graph.stream(inputs, stream_mode="values",  config={"recursion_limit": 50}))
 
+        _ =  page.goto("https://www.google.com")
+        stealth_sync(page)
         break_input = input("Do you want to continue? (y/n): ")
         if break_input == "n":
             break
+    

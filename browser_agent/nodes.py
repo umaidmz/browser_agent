@@ -108,7 +108,7 @@ def capture_annotated_screen(state: AgentState):
     # bbox_descriptions can be passed to the text for more accuracy.
     message = HumanMessage(
         content=[
-            {"type": "text", "text": f"{state['input']} "},
+            {"type": "text", "text": f"{state['input']} \n {bbox_descriptions}"},
             {
             "type": "image_url",
             "image_url": {"url": f"data:image/png;base64,{base64.b64encode(screenshot).decode()}"},
