@@ -1,4 +1,4 @@
-# Browser Agent Langgraph 2025
+# Web Browsing Agent with Langgraph 2025
 
 ## Description
 Browser Agent is a project designed to monitor and interact with web browsers programmatically. It provides tools to automate browser tasks, collect data, and perform various web interactions. It only provides basic functionality to enable developers get started with browser agent. It uses latest langgraph concepts to enable the features. 
