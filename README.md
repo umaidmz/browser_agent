@@ -1,10 +1,11 @@
-# Browser Agent
+# Browser Agent Langgraph 2025
 
 ## Description
-Browser Agent is a project designed to monitor and interact with web browsers programmatically. It provides tools to automate browser tasks, collect data, and perform various web interactions. It only provides basic functionality to enable developers with a startinmg inspiration for browser agent.
+Browser Agent is a project designed to monitor and interact with web browsers programmatically. It provides tools to automate browser tasks, collect data, and perform various web interactions. It only provides basic functionality to enable developers get started with browser agent. It uses latest langgraph concepts to enable the features. 
 
 ## Installation
 To install the Browser Agent, clone the repository and install the dependencies:
+add the required files in .env.example and then remove the '.example' from the end.
 
 ```bash
 git clone https://github.com/zaffau/browser_agent.git
